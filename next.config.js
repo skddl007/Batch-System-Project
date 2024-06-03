@@ -1,4 +1,10 @@
+// next.config.js
+
 const nextConfig = {
-  // ... other configurations
-  output: 'export',
+  reactStrictMode: true,
+    dir: 'build',
+    // Optional: configure other settings like assetPrefix, etc.
+  },
 };
+
+module.exports = nextConfig;
