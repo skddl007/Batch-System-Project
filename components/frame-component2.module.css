@@ -1,0 +1,132 @@
+.cumEtConvallis,
+.makeTheBest {
+  margin: 0;
+  position: relative;
+  text-transform: capitalize;
+  z-index: 8;
+}
+.makeTheBest {
+  width: 618px;
+  font-size: var(--font-size-45xl);
+  line-height: 64px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.cumEtConvallis {
+  align-self: stretch;
+  line-height: 28px;
+  font-weight: 500;
+  color: var(--color-gray-500);
+}
+.frameChild {
+  height: 60px;
+  width: 180px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-black);
+  display: none;
+}
+.frameItem,
+.getStarted {
+  position: relative;
+  z-index: 1;
+}
+.getStarted {
+  flex: 1;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--font-clash-display);
+  color: var(--color-white);
+  text-align: left;
+  white-space: nowrap;
+}
+.frameItem {
+  width: 24px;
+  height: 7.4px;
+}
+.rectangleParent,
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-4xl);
+  background-color: var(--color-black);
+  width: 180px;
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  z-index: 8;
+}
+.watchVideo {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 500;
+  z-index: 8;
+}
+.watchVideoWrapper {
+  width: 111px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+  box-sizing: border-box;
+}
+.frameParent,
+.makeTheBestFinancialDecisiParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 374px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.makeTheBestFinancialDecisiParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-430xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 1050px) {
+  .makeTheBest {
+    font-size: var(--font-size-32xl);
+    line-height: 51px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .makeTheBestFinancialDecisiParent {
+    padding-bottom: var(--padding-273xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .makeTheBest {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}

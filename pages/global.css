@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clash+Display:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-clash-display: "Clash Display";
+  --font-open-sans: "Open Sans";
+  --font-dm-sans: "DM Sans";
+  --font-plus-jakarta-sans: "Plus Jakarta Sans";
+  --font-nunito-sans: "Nunito Sans";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-13xl: 32px;
+  --font-size-lgi: 19px;
+  --font-size-7xl: 26px;
+  --font-size-8xs-2: 4.2px;
+  --font-size-2xs-5: 10.5px;
+  --font-size-xs-8: 11.8px;
+  --font-size-lg: 18px;
+  --font-size-29xl: 48px;
+  --font-size-10xl: 29px;
+  --font-size-19xl: 38px;
+  --font-size-9xl: 28px;
+  --font-size-3xl: 22px;
+  --font-size-2xs-4: 10.4px;
+  --font-size-8xs-8: 4.8px;
+  --font-size-smi-7: 12.7px;
+  --font-size-11xs: 2px;
+  --font-size-4xs-6: 8.6px;
+  --font-size-5xs-4: 7.4px;
+  --font-size-mini-8: 14.8px;
+  --font-size-45xl: 64px;
+  --font-size-32xl: 51px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #888b92;
+  --color-gray-200: #82848a;
+  --color-gray-300: #262626;
+  --color-gray-400: #191d2a;
+  --color-gray-500: rgba(0, 0, 0, 0.5);
+  --color-black: #000;
+  --color-tomato: #ff5555;
+  --color-red: #ff0000;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-base: 16px;
+  --gap-16xl: 35px;
+  --gap-xs: 12px;
+  --gap-21xl: 40px;
+  --gap-5xs: 8px;
+  --gap-9xs: 4px;
+  --gap-5xl: 24px;
+  --gap-28xl-5: 47.5px;
+  --gap-31xl: 50px;
+  --gap-6xl: 25px;
+  --gap-51xl-3: 70.3px;
+  --gap-smi-7: 12.7px;
+  --gap-7xs-1: 5.1px;
+  --gap-11xs-1: 1.1px;
+  --gap-smi-3: 12.3px;
+  --gap-7xs-9: 5.9px;
+  --gap-23xl: 42px;
+  --gap-2xl: 21px;
+  --gap-13xl: 32px;
+
+  /* Paddings */
+  --padding-21xl: 40px;
+  --padding-xl: 20px;
+  --padding-12xs: 1px;
+  --padding-18xl: 37px;
+  --padding-5xl: 24px;
+  --padding-3xs: 10px;
+  --padding-lg: 18px;
+  --padding-mid: 17px;
+  --padding-10xs: 3px;
+  --padding-6xs: 7px;
+  --padding-37xl: 56px;
+  --padding-137xl: 156px;
+  --padding-58xl: 77px;
+  --padding-213xl: 232px;
+  --padding-82xl: 101px;
+  --padding-19xl: 38px;
+  --padding-132xl: 151px;
+  --padding-sm: 14px;
+  --padding-2xl: 21px;
+  --padding-mini-4: 14.4px;
+  --padding-3xl: 22px;
+  --padding-11xs: 2px;
+  --padding-45xl: 64px;
+  --padding-12xl: 31px;
+  --padding-11xl: 30px;
+  --padding-65xl: 84px;
+  --padding-44xl: 63px;
+  --padding-50xl: 69px;
+  --padding-26xl: 45px;
+  --padding-10xl: 29px;
+  --padding-205xl-7: 224.7px;
+  --padding-180xl: 199px;
+  --padding-206xl: 225px;
+  --padding-80xl: 99px;
+  --padding-base-1: 15.1px;
+  --padding-mini-5: 14.5px;
+  --padding-8xs-3: 4.3px;
+  --padding-8xs-9: 4.9px;
+  --padding-2xs-5: 10.5px;
+  --padding-2xs-4: 10.4px;
+  --padding-11xs-8: 1.8px;
+  --padding-9xs-7: 3.7px;
+  --padding-179xl: 198px;
+  --padding-27xl: 46px;
+  --padding-4xl: 23px;
+  --padding-13xl: 32px;
+  --padding-430xl: 449px;
+  --padding-273xl: 292px;
+  --padding-mini: 15px;
+  --padding-base: 16px;
+  --padding-7xs: 6px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-5xs: 8px;
+  --br-base: 16px;
+  --br-smi-3: 12.3px;
+
+  /* Effects */
+  --s: -13px 13px 104.09px rgba(161, 161, 161, 0.1);
+}

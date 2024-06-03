@@ -1,0 +1,263 @@
+.readyToGet,
+.risusHabitantLeo {
+  margin: 0;
+  position: relative;
+  text-transform: capitalize;
+  z-index: 1;
+}
+
+.readyToGet {
+  width: 100%;
+  max-width: 547px;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  text-align: center;
+}
+
+.risusHabitantLeo {
+  line-height: 28px;
+}
+
+.risusHabitantLeoEgestasMauWrapper {
+  width: 100%;
+  max-width: 536px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: var(--padding-45xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-open-sans);
+  margin: 0 auto;
+}
+
+.frameChild {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: -153px;
+  max-height: 100%;
+  width: 100%;
+  max-width: 719.5px;
+}
+
+.frameItem {
+  height: 60px;
+  width: 208px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  display: none;
+}
+
+.downloadApp {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--font-clash-display);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+
+.downloadAppWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: var(--padding-11xs);
+}
+
+.vectorIcon {
+  align-self: stretch;
+  width: 25.8px;
+  position: relative;
+  max-height: 100%;
+  min-height: 32px;
+  z-index: 1;
+}
+
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-2xl) var(--padding-mini-4) var(--padding-3xl);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 100px;
+  left: 252px;
+  border-radius: var(--br-9xs);
+  width: 208px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  z-index: 1;
+}
+
+.frameParent {
+  height: 719.5px;
+  width: 100%;
+  max-width: 566.5px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -403.5px;
+  left: -175px;
+}
+
+.frameInner,
+.groupIcon {
+  position: absolute;
+  top: 0;
+  left: 141px;
+  width: 100%;
+  max-width: 719.5px;
+  height: 100%;
+}
+
+.groupIcon {
+  top: 75px;
+  left: 143px;
+  width: 100%;
+  max-width: 378.2px;
+  height: 367.5px;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.iphone13Pro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.starIcon {
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  width: 64px;
+  height: 64px;
+  z-index: 3;
+}
+
+.frameContainer {
+  position: absolute;
+  top: 272px;
+  left: 0;
+  width: 100%;
+  max-width: 591px;
+  height: 459.9px;
+}
+
+.frameGroup,
+.seventhpageChild {
+  position: absolute;
+  margin: 0 !important;
+}
+
+.frameGroup {
+  height: 731.9px;
+  width: 100%;
+  max-width: 676px;
+  top: -248px;
+  right: -175px;
+}
+
+.seventhpageChild {
+  height: 67.9px;
+  width: 67.9px;
+  bottom: 102.1px;
+  left: 412px;
+  object-fit: contain;
+}
+
+.seventhpage {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-137xl) var(--padding-58xl) var(--padding-213xl);
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-clash-display);
+}
+
+@media screen and (max-width: 1050px) {
+  .readyToGet {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+
+  .rectangleParent {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .frameParent {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .frameGroup {
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .seventhpage {
+    padding: var(--padding-82xl) var(--padding-19xl) var(--padding-132xl);
+  }
+
+  .rectangleParent {
+    top: 80px;
+  }
+
+  .frameGroup {
+    top: -150px;
+  }
+
+  .frameParent {
+    bottom: -300px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .readyToGet {
+    font-size: var(--font-size-10xl);
+    line-height: 29px;
+  }
+
+  .rectangleParent {
+    top: 60px;
+  }
+
+  .frameGroup {
+    top: -100px;
+  }
+
+  .frameParent {
+    bottom: -200px;
+  }
+}

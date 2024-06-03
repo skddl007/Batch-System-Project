@@ -1,0 +1,125 @@
+.promoBackground,
+.promoBackground1 {
+  position: absolute;
+  top: 237.3px;
+  left: 392.8px;
+  background-color: var(--color-black);
+  width: 1.3px;
+  height: 71.2px;
+  z-index: 1;
+}
+.promoBackground1 {
+  left: 318.3px;
+  z-index: 2;
+}
+.frameChild {
+  position: absolute;
+  top: 228.6px;
+  left: 64px;
+  width: 56.4px;
+  height: 57.1px;
+  object-fit: contain;
+  z-index: 1;
+}
+.frameItem,
+.gradientStarIcon {
+  position: absolute;
+  top: 242.5px;
+  left: 127px;
+  width: 41.8px;
+  height: 41.8px;
+  z-index: 1;
+}
+.frameItem {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 3;
+}
+.freeTrial,
+.makeTheBest,
+.uifryPremium {
+  position: absolute;
+  text-transform: capitalize;
+}
+.makeTheBest {
+  margin: 0;
+  top: 216.37px;
+  left: 72.8px;
+  line-height: 18.3px;
+  font-weight: 600;
+  transform: rotate(-45.7deg);
+  transform-origin: 0 0;
+  z-index: 4;
+}
+.freeTrial,
+.uifryPremium {
+  left: 201.5px;
+  line-height: 19px;
+  z-index: 6;
+}
+.uifryPremium {
+  top: 243.8px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 86px;
+}
+.freeTrial {
+  text-decoration: none;
+  top: 263.4px;
+  font-size: var(--font-size-2xs-5);
+  font-weight: 500;
+  color: inherit;
+}
+.vectorParent {
+  position: absolute;
+  top: 9.8px;
+  left: 208.3px;
+  width: 297.5px;
+  height: 302.6px;
+}
+.thirdGradient {
+  position: absolute;
+  top: calc(50% + 93.89px);
+  left: calc(50% - 252.65px);
+  border-radius: 0 var(--br-5xs) var(--br-5xs) 0;
+  background-color: var(--color-black);
+  width: 534.3px;
+  height: 71.4px;
+  transform: rotate(-28deg);
+  transform-origin: 0 0;
+}
+.frameInner,
+.starIcon {
+  position: absolute;
+  object-fit: contain;
+}
+.frameInner {
+  top: calc(50% - 127.35px);
+  left: calc(50% - 222.55px);
+  width: 440px;
+  height: 257.6px;
+  z-index: 1;
+}
+.starIcon {
+  top: 45.3px;
+  left: 83.4px;
+  width: 67.9px;
+  height: 67.9px;
+  z-index: 8;
+}
+.promoBackgroundParent {
+  position: absolute;
+  top: 523.7px;
+  left: 197.6px;
+  width: 505.3px;
+  height: 313.9px;
+  z-index: 5;
+  text-align: left;
+  font-size: var(--font-size-xs-8);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}
