@@ -9,5 +9,5 @@
   3) Run `npm run dev` to view project in browser
   
 
-Anyone can access from using live link at notify:-
+Anyone can access from using live link :-
 https://sandeep-batchsystem-assign.netlify.app/
