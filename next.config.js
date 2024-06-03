@@ -1,17 +1,15 @@
-/**
- * @type {import('next').NextConfig}
- */
-const nextConfig = {
-  output: 'export',
- 
-  Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
-  trailingSlash: true,
- 
-  Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
-  skipTrailingSlashRedirect: true,
- 
-  Optional: Change the output directory `out` -> `dist`
-  distDir: 'dist',
-}
- 
-module.exports = nextConfig
+// next.config.ts
+import { NextConfig } from 'next';
+
+const nextConfig: NextConfig = {
+  // Other configurations...
+  output: {
+    // Set your desired export options here
+    // For example, to export all pages as static HTML:
+    publicDir: './public',
+    // Other options...
+  },
+};
+
+export default nextConfig;
+
