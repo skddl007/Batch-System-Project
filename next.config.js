@@ -1,7 +1,13 @@
-/** @type {import('next').NextConfig} */
-  const nextConfig = {
-    reactStrictMode: true,
-    
-  }
+// next.config.js
 
-  module.exports = nextConfig
+const nextConfig = {
+  reactStrictMode: true,
+  // Add the output configuration
+  output: {
+    // Set your desired output directory here
+    dir: 'build',
+    // Optional: configure other settings like assetPrefix, etc.
+  },
+};
+
+module.exports = nextConfig;
