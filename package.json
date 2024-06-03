@@ -22,4 +22,9 @@
     "start": "next start",
     "lint": "next lint"
   }
+  {
+  "scripts": {
+    "build": "next build",
+    // Other scripts...
+  }
 }
