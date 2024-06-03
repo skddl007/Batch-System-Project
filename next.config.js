@@ -1,7 +1,4 @@
-// next.config.ts
-import { NextConfig } from 'next';
-
-const nextConfig: NextConfig = {
+module.exports = {
   // Other configurations...
   output: {
     // Set your desired export options here
@@ -10,6 +7,3 @@ const nextConfig: NextConfig = {
     // Other options...
   },
 };
-
-export default nextConfig;
-
